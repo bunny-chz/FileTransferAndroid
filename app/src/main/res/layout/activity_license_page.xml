@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LicensePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+    <Button
+        android:id="@+id/licensePageBack"
+        android:background="@mipmap/back"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:text="@string/licensePageTitle"
+        android:textColor="#3455FF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/license_name_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/license_name_title"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/license_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/license_title"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/license_modify_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/license_modify_title"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/license_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

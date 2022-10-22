@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F3"
+    tools:context="com.bunny.FileTransferLite.UI">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#287EFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <com.bunny.FileTransferLite.sshadkany.RectButton
+        android:id="@+id/moreBtn"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:shape_roundRect_backgroundColor="#ECF0F3"
+        app:shape_roundRect_bottomLeftRadius="10dp"
+        app:shape_roundRect_bottomRightRadius="10dp"
+        app:shape_roundRect_topLeftRadius="10dp"
+        app:shape_roundRect_topRightRadius="10dp">
+
+        <ImageView
+            android:id="@+id/moreBtnImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:src="@mipmap/more"
+            app:tint="#2F63FF" />
+
+    </com.bunny.FileTransferLite.sshadkany.RectButton>
+
+    <TextView
+        android:id="@+id/ipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wifi_on"
+        android:gravity="center"
+        android:textColor="#1850F8"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/serverBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.bunny.FileTransferLite.sshadkany.shapes.CircleView
+        android:id="@+id/serverBtn"
+        android:layout_width="224dp"
+        android:layout_height="220dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        app:shape_circle_backgroundColor="#EDEFF1"
+        app:shape_circle_shadow_type="drop_shadow">
+
+        <ImageView
+            android:id="@+id/serverBtnImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/cloud_server"
+            app:tint="#1F96F3" />
+
+    </com.bunny.FileTransferLite.sshadkany.shapes.CircleView>
+
+    <com.bunny.FileTransferLite.sshadkany.shapes.CircleView
+        android:id="@+id/clientBtn"
+        android:layout_width="232dp"
+        android:layout_height="214dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serverBtn"
+        app:layout_constraintVertical_bias="0.108"
+        app:shape_circle_backgroundColor="#ECF0F3"
+        app:shape_circle_shadow_type="drop_shadow">
+
+        <ImageView
+            android:id="@+id/clientBtnImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/client_img"
+            app:tint="#002AFA" />
+
+    </com.bunny.FileTransferLite.sshadkany.shapes.CircleView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

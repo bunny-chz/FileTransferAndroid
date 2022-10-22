@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape2"
+                android:gravity="center"
+                android:onClick="close"
+                android:textSize="14sp"
+                android:text="@string/bt_close" />
+
+            <Button
+                android:id="@+id/copy"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:onClick="copy"
+                android:textSize="14sp"
+                android:text="@string/bt_copy_all" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pick_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/clear_shape"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="@string/pick_link" />
+
+        <EditText
+            android:id="@+id/dialog_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="#AEABAB"
+            android:background="@drawable/edit_text_shape"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

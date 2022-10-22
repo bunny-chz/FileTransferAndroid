@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/dialog_edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:hint="@string/edit_hint"
+        android:textColorHint="#AEABAB"
+        android:background="@drawable/edit_text_shape"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+        <TextView
+            android:text="@string/edit_client_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/clear_shape"
+            android:gravity="center"
+            android:text="@string/clear_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:onClick="cancel"
+            android:text="@string/bt_cancel"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textSize="14sp"
+            android:background="@drawable/shape2"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:onClick="confirm"
+            android:text="@string/bt_confirm"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

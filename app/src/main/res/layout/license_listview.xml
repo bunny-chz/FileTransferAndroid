@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View  android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+    <TextView
+            android:id="@+id/license_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#1993FF"/>
+
+    <TextView
+            android:id="@+id/license"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#1993FF"/>
+
+    <TextView
+            android:id="@+id/license_modify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"/>
+  </LinearLayout>
+
+</LinearLayout>
