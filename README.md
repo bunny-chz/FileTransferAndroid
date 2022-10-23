@@ -20,7 +20,11 @@ https://github.com/bunny-chz/FileTransferWindowsServer
 
 **开发环境**
 
-Android Studio    API > 21   安卓5.0以上
+Android Studio
+
+API > 21
+
+安卓5.0以上
 
 
 **用到的依赖**
