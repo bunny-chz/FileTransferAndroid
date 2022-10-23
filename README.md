@@ -51,7 +51,7 @@ https://github.com/jenly1314/ZXingLite
 https://github.com/sshadkany/Android_neumorphic
 
 
-本项目中NanoHTTPD，搭建的服务器，客户端上传的文件，缓存在缓存目中，需要声明读写权限，否则客户端上传文件时会出错
+本项目中NanoHTTPD搭建的服务器，客户端上传的文件，缓存在缓存目中，需要声明读写权限，否则客户端上传文件时会出错
 
 其中安卓10，需要在AndroidManifest.xml的application中声明
 
@@ -75,10 +75,10 @@ android:requestLegacyExternalStorage="true"
 
 boolean highPermission = Environment.isExternalStorageManager();
 if (!highPermission) {
-        @SuppressLint("InlinedApi") Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
-        intent.setData(Uri.fromParts("package", this.getPackageName(), null));
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        this.startActivity(intent);
+    @SuppressLint("InlinedApi") Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+    intent.setData(Uri.fromParts("package", this.getPackageName(), null));
+    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    this.startActivity(intent);
 }
 
 ```
