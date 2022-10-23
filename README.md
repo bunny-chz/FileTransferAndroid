@@ -56,23 +56,18 @@ https://github.com/sshadkany/Android_neumorphic
 其中安卓10，需要在AndroidManifest.xml的application中声明
 
 ```
-
 android:requestLegacyExternalStorage="true"
-
 ```
 
 安卓11，需要在AndroidManifest.xml中声明 
 
 ```
-
 <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-
 ```
 
 且需要进行页面跳转给予管理全部文件的权限，
 
 ```
-
 boolean highPermission = Environment.isExternalStorageManager();
 if (!highPermission) {
     @SuppressLint("InlinedApi") Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
@@ -80,7 +75,6 @@ if (!highPermission) {
     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     this.startActivity(intent);
 }
-
 ```
 
 
