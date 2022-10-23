@@ -53,9 +53,21 @@ https://github.com/sshadkany/Android_neumorphic
 
 本项目中NanoHTTPD，搭建的服务器，客户端上传的文件，缓存在缓存目中，需要声明读写权限
 
-其中安卓10，需要在AndroidManifest.xml的application中声明android:requestLegacyExternalStorage="true"
+其中安卓10，需要在AndroidManifest.xml的application中声明
 
-安卓11，需要在AndroidManifest.xml中声明 uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" 
+```
+
+android:requestLegacyExternalStorage="true"
+
+```
+
+安卓11，需要在AndroidManifest.xml中声明 
+
+```
+
+<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+```
 
 且需要进行页面跳转给予管理全部文件的权限，
 
