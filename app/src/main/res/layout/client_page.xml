@@ -161,7 +161,7 @@
                 android:textColor="#418DFF"
                 android:layout_height="105dp"
                 android:layout_margin="35dp"
-                android:hint="@string/ServerToClientEtHint"
+                android:hint="@string/post_string_tip"
                 android:textColorHint="#9C9A9A"
                 />
 
@@ -269,7 +269,7 @@
                 android:textColor="#418DFF"
                 android:layout_height="105dp"
                 android:layout_margin="35dp"
-                android:hint="@string/ClientToServerEtTip"
+                android:hint="@string/serverToClientEtHint"
                 android:textColorHint="#9C9A9A"/>
 
         </com.bunny.FileTransferLite.sshadkany.shapes.RoundRectView>
