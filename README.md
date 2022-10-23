@@ -23,6 +23,7 @@ https://github.com/bunny-chz/FileTransferWindowsServer
 Android Studio    API > 21   安卓5.0以上
 
 
+**用到的依赖**
 
 本软件用到Retrofit，处理HTTP的请求和响应
 
@@ -36,8 +37,6 @@ https://github.com/NanoHttpd/nanohttpd
 
 https://www.bilibili.com/video/BV1ua4y1J7VV
 
-本项目用了大量文件读写方法，来实现功能。具体实现请看代码。
-
 关于界面网址
 
 https://github.com/medyo/android-about-page
@@ -50,6 +49,11 @@ https://github.com/jenly1314/ZXingLite
 界面风格网址
 
 https://github.com/sshadkany/Android_neumorphic
+
+
+
+本项目用了大量文件读写方法，来实现功能。具体实现请看代码。
+
 
 
 **自定义的服务器接口**
