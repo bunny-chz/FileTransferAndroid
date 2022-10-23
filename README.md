@@ -38,6 +38,19 @@ https://www.bilibili.com/video/BV1ua4y1J7VV
 
 本项目用了大量文件读写方法，来实现功能。具体实现请看代码。
 
+关于界面网址
+
+https://github.com/medyo/android-about-page
+
+扫码解码
+
+https://github.com/jenly1314/ZXingLite
+
+
+界面风格网址
+
+https://github.com/sshadkany/Android_neumorphic
+
 
 **自定义的服务器接口**
 
