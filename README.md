@@ -68,7 +68,7 @@ http://IP:Port/testLink 客户端GET请求，连接测试
 
 http://IP:Port/textCtoSPage 客户端GET，获取到一个发送文本给服务器的操作网页
 
-http://IP:Port/textCtoS 链接中带参数，客户端POST请求后，会给服务器发送文本信息，键值值为"text=???"
+http://IP:Port/textCtoS 链接中带参数，客户端POST请求后，会给服务器发送文本信息，键值为"text=???"
 
 http://IP:Port/textStoC 客户端GET获取到服务器发送的信息
 
