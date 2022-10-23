@@ -37,7 +37,7 @@ https://github.com/square/retrofit
 
 https://github.com/NanoHttpd/nanohttpd
 
-本人感觉很好的安卓HTTP网络编程教程，希望能帮到你学习安卓，宝藏博主的B站--->
+本人感觉很好的安卓HTTP网络编程教程，强烈推荐给要学习Retrofit和OKHttp的同学，,希望能帮到你学习安卓，宝藏博主的B站--->
 
 https://www.bilibili.com/video/BV1ua4y1J7VV
 
