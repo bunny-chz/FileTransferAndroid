@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ECF0F3"
-    tools:context="com.bunny.FileTransferLite.UI">
+    tools:context="com.bunny.FileTransferLite.ServerActivity">
 
     <com.bunny.FileTransferLite.sshadkany.RectButton
         android:id="@+id/backBtn"
