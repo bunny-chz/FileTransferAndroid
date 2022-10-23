@@ -39,7 +39,7 @@ https://www.bilibili.com/video/BV1ua4y1J7VV
 本项目用了大量文件读写方法，来实现功能。具体实现请看代码。
 
 
-**自定义的服务器接口
+**自定义的服务器接口**
 
 说明：下面的IP和Port为设备所属网络环境的IP和端口，只支持HTTP
 
@@ -66,17 +66,23 @@ http://IP:Port/fileStoCWeb 网页端GET服务器发送的文件
 http://IP:Port/fileStoC 客户端GET服务器发送的文件
 
 
-**界面预览
+**界面预览**
 
 ------------------------------
+
+**主界面**
 
 ![Screenshot_2022-10-23-15-35-17-44_45da8379b8d5050e61946b694b18ea47](https://user-images.githubusercontent.com/57706599/197380097-279aa376-0382-4999-8f04-827f0b61efd9.jpg)
 
 -------------------------------------------
 
+**服务器界面**
+
 ![Screenshot_2022-10-23-15-35-20-42_45da8379b8d5050e61946b694b18ea47](https://user-images.githubusercontent.com/57706599/197380112-a92ca525-8d24-4646-9d13-6de25f72e51b.jpg)
 
 ---------------------------------------
+
+**客户端界面**
 
 ![Screenshot_2022-10-23-15-35-27-46_45da8379b8d5050e61946b694b18ea47](https://user-images.githubusercontent.com/57706599/197380124-7e43ab79-88b3-49af-b7c3-b5c68f700722.jpg)
 
