@@ -1,6 +1,10 @@
 # FileTransferAndroid
 文件快传是基于NanoHTTPD搭建的安卓服务器，基于Retrofit和okHttp处理HTTP请求响应的安卓客户端。
 
+抖音视频演示：
+
+https://v.douyin.com/rbRMCXE/
+
 
 --------------------------------------
 
