@@ -12,11 +12,11 @@ https://v.douyin.com/rbRMCXE/
 
 可以在局域网内基于HTTP协议，实现电脑，安卓，网页浏览器三端数据互通
 
-电脑客户端请看这里（用到了QNetworkAccessManager类进行GET,POST请求）
+#电脑客户端请看这里（用到了QNetworkAccessManager类进行GET,POST请求）
 
 https://github.com/bunny-chz/FileTransferWindowsClient
 
-电脑服务器端请看这里（用到了QtWebApp）
+#电脑服务器端请看这里（用到了QtWebApp）
 
 https://github.com/bunny-chz/FileTransferWindowsServer
 
