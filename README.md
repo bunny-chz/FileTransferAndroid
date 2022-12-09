@@ -99,7 +99,7 @@ if (!highPermission) {
 
 说明：下面的IP和Port为设备所属网络环境的IP和端口，只支持HTTP
 
-textCtoS 即是 text from Client to Server的缩写，其他以此类推
+textCtoS 即是 text from Client to Server（从客户端发送文本到服务器）的缩写，其他以此类推
 
 http://IP:Port/ 网页端主页，客户端GET获取到一个网页
 
