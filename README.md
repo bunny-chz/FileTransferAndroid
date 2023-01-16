@@ -82,7 +82,7 @@ android:requestLegacyExternalStorage="true"
 ```
 boolean highPermission = Environment.isExternalStorageManager();
 if (!highPermission) {
-    @SuppressLint("InlinedApi") Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+    Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
     intent.setData(Uri.fromParts("package", this.getPackageName(), null));
     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     this.startActivity(intent);
