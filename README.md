@@ -71,7 +71,7 @@ android:requestLegacyExternalStorage="true"
 
 -------------------------------
 
-安卓11，需要在AndroidManifest.xml中声明 
+安卓11及以上，需要在AndroidManifest.xml中声明 
 
 ```
 <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
