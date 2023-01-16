@@ -54,7 +54,7 @@ https://github.com/medyo/android-about-page
 https://github.com/jenly1314/ZXingLite
 
 
-新拟物化设计界面风格网址
+新拟物化设计界面风格网址（Public archive）
 
 https://github.com/sshadkany/Android_neumorphic
 
