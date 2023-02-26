@@ -63,6 +63,13 @@ https://github.com/sshadkany/Android_neumorphic
 
 --------------------
 
+使用HTTP，不使用HTTPS，要在在AndroidManifest.xml的application中声明
+
+```
+android:usesCleartextTraffic="true"
+```
+
+
 其中安卓10，需要在AndroidManifest.xml的application中声明
 
 ```
